@@ -19,3 +19,15 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.col.red {
+  background-color: red;
+}
+
+.col.blue {
+  background-color: blue;
+}
+
+.col.yellow {
+  background-color: yellow;
+}
