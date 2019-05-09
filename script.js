@@ -28,7 +28,7 @@ for (var i = 0; i < boxes.length; i++) {
   } else {
     e.target.className = 'col black';
   }
-  })
+});
 }
 
 var buttons = document.querySelectorAll('button');
