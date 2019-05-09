@@ -7,21 +7,72 @@ flex-direction: column;
 .row {
   display: flex;
   border: solid black;
-  width: 800px;
+  width: 1000px;
   justify-content: center;
   align-items: center;
+  border-width: thin;
+  border-color: rgba(190, 190, 190, .9);
 }
 
 .col {
   display: flex;
   border: solid black;
-  height: 400px;
+  height: 40px;
   justify-content: center;
   align-items: center;
+  border-width: thin;
+  border-color: rgba(190, 190, 190, .9);
+}
+
+.btn.btn-outline-success.red {
+  background-color: red;
+}
+
+.btn.btn-outline-success.orange {
+  background-color: orange;
+}
+
+.btn.btn-outline-success.green {
+  background-color: green;
+}
+
+.btn.btn-outline-success.blue {
+  background-color: blue;
+}
+
+.btn.btn-outline-success.yellow {
+  background-color: yellow;
+}
+
+.btn.btn-outline-success.purple {
+  background-color: purple;
+}
+
+.btn.btn-outline-success.black {
+  background-color: black;
+}
+
+.btn.btn-outline-success.grey {
+  background-color: grey;
+}
+
+.btn.btn-outline-success.brown {
+  background-color: brown;
+}
+.btn.btn-outline-success.white {
+  background-color: white;
 }
 
 .col.red {
   background-color: red;
+}
+
+.col.orange {
+  background-color: orange;
+}
+
+.col.green {
+  background-color: green;
 }
 
 .col.blue {
@@ -30,4 +81,28 @@ flex-direction: column;
 
 .col.yellow {
   background-color: yellow;
+}
+
+.col.purple {
+  background-color: purple;
+}
+
+.col.black {
+  background-color: black;
+}
+
+.col.grey {
+  background-color: grey;
+}
+
+.col.brown {
+  background-color: brown;
+}
+.col.white {
+  background-color: white;
+}
+
+.palette {
+  display: flex;
+  justify-content: center;
 }
