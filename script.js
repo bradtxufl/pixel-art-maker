@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 var boxes = document.querySelectorAll('.col');
-var brushColor = 'yellow';
+var brushColor = 'white';
 
 
 for (var i = 0; i < boxes.length; i++) {
