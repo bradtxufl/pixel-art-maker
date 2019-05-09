@@ -1,0 +1,21 @@
+main {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.row {
+  display: flex;
+  border: solid black;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  border: solid black;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
